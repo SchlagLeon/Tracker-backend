@@ -1,4 +1,4 @@
-package com.example.demo.model;
+package com.example.golfrunden.model;
 
 import java.time.LocalDate;
 

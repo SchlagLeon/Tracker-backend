@@ -1,6 +1,6 @@
-package com.example.demo.controller;
+package com.example.golfrunden.controller;
 
-import com.example.demo.model.Round;
+import com.example.golfrunden.model.Round;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
