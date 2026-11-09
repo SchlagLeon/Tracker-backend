@@ -15,7 +15,7 @@ public class RoundController {
     @GetMapping
     public List<Round> getAll() {
         Round r = new Round();
-        r.setId(1L);
+        r.setRoundId(1L);
         r.setDate(LocalDate.now());
         r.setCourseName("Testplatz");
         r.setNote("Erste Testrunde");

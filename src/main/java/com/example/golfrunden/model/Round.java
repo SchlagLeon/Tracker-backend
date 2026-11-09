@@ -5,17 +5,17 @@ import java.time.LocalDate;
 public class Round {
 
 
-    private long id;
+    private long roundId;
     private LocalDate date;
     private String courseName;
     private String note;
 
-    public long getId() {
-        return id;
+    public long getRoundId() {
+        return roundId;
     }
 
-    public void setId(long id) {
-        this.id = id;
+    public void setRoundId(long roundId) {
+        this.roundId = roundId;
     }
 
     public LocalDate getDate() {
