@@ -2,11 +2,10 @@
 # Build stage
 #
 FROM eclipse-temurin:25-jdk AS build
-COPY --chown=gradle:gradle . /home/gradle/src
 WORKDIR /home/gradle/src
-RUN gradle build --no-daemon
+COPY . .
+RUN chmod +x gradlew && ./gradlew build --no-daemon
 
-LABEL org.name="DEIN-NAME"
 #
 # Package stage
 #
